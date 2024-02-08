@@ -1,0 +1,70 @@
+.container{
+    width: 100%;
+}
+.cards-container{
+    display: flex;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #b9e2f5;
+    justify-content: space-between;
+    text-align: center;
+    transition: transform 330ms ease-in-out;
+}
+.cards-container:hover {
+    transform: scale(1.02);
+    background-color: #50b8e7;
+  }
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    flex: 2 1 auto;
+}
+.stop-info{
+    margin-bottom: 4px;
+}
+.price-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 32%;
+    font-size: 1.25rem;
+    box-shadow: inset 0.0625rem 0 0 #50b8e7;
+}
+.flight-name{
+    font-size: 1rem;
+    margin-bottom: 4px;
+}
+.stop-count{
+    width: 100%;
+    padding-top: 4px;
+    box-shadow: inset 0 0.0625rem 0 0 black;
+}
+.duration-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+}
+
+.arrival-info{
+    margin-right: 20px;
+}
+.time{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+.filter-sort-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 15px;
+}
+.center-text{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}

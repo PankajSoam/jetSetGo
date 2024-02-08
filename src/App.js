@@ -1,10 +1,12 @@
-import './App.css';
-import FlightList from './components/FlightList/FlightList';
- 
+import "./App.css";
+import FlightList from "./components/FlightList/FlightList";
+import Header from "./components/Header/Header";
+
 function App() {
   return (
     <div className="App">
-      <FlightList/>
+      <Header />
+      <FlightList />
     </div>
   );
 }
